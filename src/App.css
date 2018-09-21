@@ -1,0 +1,71 @@
+/* ===== Commom Styles =====*/
+.bg-red {
+  background-color: #ed1d24;
+}
+
+/* ===== Heroes Gallery =====*/
+#heroes-gallery {
+  padding: 40px 0 40px 0;
+  background-color: #f4f8fb;
+  border-bottom: 4px solid #ed1d24;
+}
+
+#heroes-gallery .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #acacac; 
+}
+
+#title {
+  color: #ed1d24;
+}
+
+/* ===== Characters Gallery =====*/
+#characters .card {
+  border-bottom: 4px solid #ed1d24; 
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px #acacac;
+  margin-top: 50px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.card-body > img {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%;
+  display:block; 
+  margin: 0 auto; 
+}
+
+.card-body >  a {
+  color: #ed1d24; 
+  display: block;
+}
+
+.card-body > hr {
+  width: 30%; 
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+/* ===== Footer =====*/
+footer {
+  text-align: center;
+  background-color: #e6e7e8;
+}
+
+footer p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0 20px 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
