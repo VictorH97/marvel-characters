@@ -51,6 +51,11 @@
   margin-left: auto;
 }
 
+/* ===== Pagination Gallery ===== */
+#gallery-pagination {
+  margin-top: 20px;
+}
+
 /* ===== Footer =====*/
 footer {
   text-align: center;

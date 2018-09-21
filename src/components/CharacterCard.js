@@ -9,6 +9,10 @@ class CharacterCard extends Component {
     }
 
     componentDidMount() {
+        this.callApi();
+    }
+
+    callApi(index) {
         fetch('https://gateway.marvel.com:443/v1/public/characters?orderBy=name&limit=12&apikey=4dc1619d8f4a59de37a1aa43942a5a2d')
         .then((results) => results.json())
         .then((response) => {
