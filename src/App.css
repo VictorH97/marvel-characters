@@ -2,6 +2,25 @@
 .bg-red {
   background-color: #ed1d24;
 }
+/* ===== Filter Group =====*/
+#btn-filter {
+  cursor: pointer;
+}
+
+#searchTextBox {
+  border: none;
+  border-bottom: 2px solid #ed1d24;
+}
+
+#searchTextBox:focus {
+  border: none;
+  border-bottom: 2px solid #ed1d24;
+  box-shadow: none;
+}
+
+#search-group {
+  margin-top: 40px;
+}
 
 /* ===== Heroes Gallery =====*/
 #heroes-gallery {
@@ -11,8 +30,7 @@
 }
 
 #heroes-gallery .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 40px 20px 40px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #acacac; 
@@ -21,6 +39,8 @@
 #title {
   color: #ed1d24;
 }
+
+
 
 /* ===== Characters Gallery =====*/
 #characters .card {

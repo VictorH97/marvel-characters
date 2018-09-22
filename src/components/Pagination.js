@@ -4,6 +4,10 @@ import ArrowRight from '../img/arrow-right.svg';
 import CharacterCard from './CharacterCard';
 
 class Pagination extends Component {
+    api() {
+        CharacterCard.callApi();
+    }
+
     render() {
         return (
             <div id="gallery-pagination" aria-label="Page navigation">
