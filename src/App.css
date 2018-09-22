@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+#btn-filter img {
+  margin: 0 10px;
+}
+
 #searchTextBox {
   border: none;
   border-bottom: 2px solid #ed1d24;
